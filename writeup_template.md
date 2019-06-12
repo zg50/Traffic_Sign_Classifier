@@ -20,9 +20,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/dis1.png "training data distribution"
-[image2]: ./examples/dis1.png "validation data distribution"
+[image2]: ./examples/dis2.png "validation data distribution"
 [image3]: ./examples/dis3.png "test data distribution"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
+[image4]: ./examples/comparsion.png "comparsion"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
@@ -54,14 +54,15 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data distributes.
+Here is an exploratory visualization of the data set. It is bar charts showing how the data distributes.
 
 ![alt text][image1]
 
-
-It is a bar chart showing how the data distributes.
-
 ![alt text][image2]
+
+![alt text][image3]
+
+![alt text][image4]
 
 ### Design and Test a Model Architecture
 
