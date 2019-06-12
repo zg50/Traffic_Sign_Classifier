@@ -24,8 +24,8 @@ The goals / steps of this project are the following:
 [image3]: ./examples/dis3.png "test data distribution"
 [image4]: ./examples/comparsion.png "comparsion"
 [image5]: ./examples/grayscale.jpg "grayscale"
-[image6]: ./examples/ori.png "ori"
-[image7]: ./examples/aug.png "aug"
+[image6]: ./examples/ori.png "original"
+[image7]: ./examples/aug.png "augmented"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 
