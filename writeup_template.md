@@ -26,11 +26,11 @@ The goals / steps of this project are the following:
 [image5]: ./examples/grayscale.jpg "grayscale"
 [image6]: ./examples/ori.png "original"
 [image7]: ./examples/aug.png "augmented"
-[image8]: ./test1.png "test1"
-[image9]: ./test2.png "test2"
-[image10]: ./test3.png "test3"
-[image11]: ./test4.png "test4"
-[image12]: ./test5.png "test5"
+[image8]: ./test/test1.png "test1"
+[image9]: ./test/test2.png "test2"
+[image10]: ./test/test3.png "test3"
+[image11]: ./test/test4.png "test4"
+[image12]: ./test/test5.png "test5"
 
 
 ## Rubric Points
