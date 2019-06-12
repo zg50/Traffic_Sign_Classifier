@@ -63,7 +63,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is bar charts showing how the data distributes.
+Here is an exploratory visualization of the data set. These are bar charts showing how the data distributes.
 
 ![alt text][image1]
 
@@ -115,7 +115,7 @@ My final model consisted of seven layers.
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I set batch size as 128, epochs as 50 and learning rate as 0.001.
+To train the model, I set batch size as 128, epochs as 50 and learning rate as 0.001. (CELL 30)
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -124,7 +124,7 @@ My final model results were:
 * validation set accuracy of 97.324
 * test set accuracy of 96.152
 
-Only change we made is pre-processing, use of Xavier initializer and use dropout. The works well for the problem.
+I still use the LetNet architecture. Only change we made is pre-processing, use of Xavier initializer and use dropout. The works well for the problem. (CELL 33)
 
 
 ### Test a Model on New Images
@@ -150,10 +150,10 @@ Here are the results of the prediction:
 | Road Work			    | Road Work      							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This is most probably because the training images are well centered and cropped, while in this image the sign is far away from the lens and have other things in background. One of the thing that can fix this is more augmentation. Specifically like rotating images , random crops etc 
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This is most probably because the training images are well centered and cropped, while in this image the sign is far away from the lens and have other things in background. One of the thing that can fix this is more augmentation. Specifically like rotating images , random crops etc. I believe if I test hundreds of images from web, the accuracy will improve. We cannot judge the model based only 5 pics.
+
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
